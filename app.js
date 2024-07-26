@@ -16,7 +16,7 @@ function atualizarHeader() {
 atualizarHeader();
 
 function verificarChute() {
-    let chute = document.querySelector('input').value;
+    let chute = docugetment.querySelector('input').value;
     if (chute == numeroAleatorio) {
         exibirTextoNaTela('h1', 'Acertou!!!');
         let palavraTentativa = tentativas > 1? 'tentativas' : 'tentativa';
